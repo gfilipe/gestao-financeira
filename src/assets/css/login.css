@@ -1,0 +1,76 @@
+.containerLogin{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.containerLogin .bg-login-image{
+    width: 70%;
+    height: inherit;
+    background: url('../images/bg-login-screen.jpg') no-repeat center top;
+    background-size: cover;
+    border-right: solid 1px #333333;
+}
+
+.containerLogin .box-login{
+    width: 30%;
+    height: inherit;
+    padding: 0 5px 0 5px;
+    display: flex;
+    align-items: center;
+}
+
+.containerLogin .box-login .content-login{
+    width: 96%;
+    height: auto;
+    padding: 15px 5px 15px 5px;
+    /* border: solid 1px #dedede; */
+}
+
+.containerLogin .box-login .content-login label{
+    width: 100%;
+    font-size: 16px;
+    text-align: left;
+    color: #000;
+    font-weight: bold;
+    margin: 0 0 0 0;
+}
+
+.containerLogin .box-login .content-login input[type="text"], input[type="password"]{
+    width: 97%;
+    height: auto;
+    padding: 10px 5px 10px 5px;
+    margin: 5px 0 10px 0;
+    outline: 0;
+    border: solid 1px #333333;
+    font-size: 14px;
+    color: #444444;
+}
+
+.containerLogin .box-login .content-login .btn-access{
+    width: 100%;
+    height: auto;
+    margin: 15px 0 0 0;
+    padding: 6px 0 6px 0;
+    background: #AB282E;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    border: solid 1px #333333;
+    outline: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.containerLogin .box-login .content-login h1{
+    font-size: 12px;
+    text-align: center;
+}
+
+.containerLogin .box-login .content-login h6{
+    font-size: 11px;
+    text-align: right;
+    color: blue;
+}
+
+
